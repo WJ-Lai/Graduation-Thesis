@@ -1,0 +1,1819 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" style="height: 100%">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta name=”renderer” content=”webkit|ie-comp|ie-stand” />  
+	<title>《十字路口驾驶员动态视觉搜索模式析取及意图预测研究》检测报告 - 论文检测系统</title>
+	<link href="resources/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="resources/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body class="markbody" >
+	<div class="logo-h1">
+		<div class="logo-wrap">
+			<h1 class="h1-def pull-left">
+				CheckPass论文检测系统
+				<span class="ver">大数据文献版</span>
+			</h1>
+		</div>
+	</div>
+	<div class="header">
+
+		<div class="navbar navbar-inverse" role="navigation">
+			<div class="container-fluid" style="height:40px">
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<p class="navbar-text navbar-text-title">十字路口驾驶员动态视觉搜索模式析取及意图预测研究 检测报告</p>
+
+				<div class="navbar-text navbar-right navbar-text-content">
+					<ul class="nav navbar-nav navbar-sec">
+						<li class="active">
+							<a href="检测报告.html">全文报告</a>
+						</li>
+						<li>
+							<a href="对比报告.html">对比报告</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+		<div class="container-fluid def-bac-sec">
+
+			<div class="collapse navbar-collapse pull-left" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-sec-sec">
+					<li >
+						<a href="#" >作者：赖伟鉴</a>
+					</li>
+
+					<li >
+						<a href="#" >检测时间：2018/4/23 20:01:29</a>
+					</li>
+					<li >
+						<a href="#" >论文字数：23283</a>
+					</li>
+					<li >
+						<a href="#" >抄袭率：16%</a>
+					</li>
+				</ul>
+
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1"></div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</div>
+</div>
+<div class="content-fix" style="text-align: left;color: black;">
+	<div style="height:100%" class="paper-body">
+		<div id="content-scoll" class=" mCustomScrollbar"  >
+			<div >
+				<div class="paper paper-wrap" >
+													<p>
+																		摘 要
+																	</p>
+															<p>
+																		十字路口作为城市道路交通系统的重要组成部分，是道路交通事故的多发地带。
+																				<span class="autotype">通过辨识城市交通环境下的驾驶意图，进而预测驾驶行为，</span>
+																				有利于减少十字路口事故发生率。
+																				作为获取信息的主要通道，驾驶员的视觉系统有着非常重要的作用，
+																				驾驶人的视觉特性与驾驶意图之间存在密切联系。
+																	</p>
+															<p>
+																		本课题研究的目标在于通过十字路口驾驶员动
+																				态视觉搜索模式来预测驾驶员的驾驶意图，
+																				<span class="autotype">从而减少十字路口的伤亡率。</span>
+																				本研究完成的工作主要包括以下方面：
+																	</p>
+															<p>
+																		（1）通过层次聚类算法，析取了驾驶员不同驾驶意图下的视觉搜索模式。
+																				在绿灯情况下，左转时存在模式L、模式LS；
+																				直行时存在模式R、模式LS；
+																				右转时存在模式LS、模式R。
+																				在红灯情况下，左转时存在模式X、模式L；
+																				直行时存在模式X、模式XC；
+																				右转时存在模式LSX、模式RX。
+																	</p>
+															<p>
+																		（2）分析不同视觉搜索模式的特征，结果表明绿灯情况下，
+																				每种驾驶意图下都存在侧重关注前方的模式，
+																				说明前方道路是驾驶员重点关注的区域。
+																				左转时，两种视觉搜索模式对左向的关注重点不同，一种侧重车辆左后方，
+																				一种侧重即车辆左前方。
+																				红灯情况下，信号灯区域是驾驶员的重点关注区域，其中直行时，
+																				驾驶员对信号灯区域的关注度在三种驾驶意图中最高
+																	</p>
+															<p>
+																		（3）在得到视觉搜索模式的基础上，
+																				<span class="autotype">提出一种将聚类结果与有监督学习结合的新预方法，</span>
+																				其中采用的有监督学习算法有：支持向量机（
+																				<span class="autotype">LibSVM）和随机森林（Random Forest）。</span>
+																				<span class="autotype">配合网格搜索法和交叉验证，得到最佳模型参数。</span>
+																	</p>
+															<p>
+																		（4）新预测方法与传统有监督学习方法对比分析，
+																				结果表明新预测方法可用于模型的优化，提高分类准确率。
+																	</p>
+															<p>
+																		关键词：视觉搜索模式，驾驶意图，层次聚类，支持向量机，随机森林
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		Abstract
+																	</p>
+															<p>
+																		As an important part of the urban road traffic system,
+																				 crossroads are a frequent occurrence area of road traffic accidents.
+																				 By recognizing driving intentions in th
+																				e urban traffic environment and predicting driving behavior,
+																				 it is beneficial to reduce the incidence of accidents at crossroads.
+																				 As the main channel for obtaining information,
+																				 the driver's visual system plays a very important role.
+																				<span class="autotype"> There is a close connection between the</span>
+																				 driver's visual characteristics and driving intention.
+																				 
+																	</p>
+															<p>
+																		The goal of this research project is to 
+																				predict the driver’s driving intention 
+																				through the driver’s dynamic visual search mode at the intersection,
+																				 thereby reducing the casualties at the intersection.
+																				 The work done in this study mainly includes the following aspects:
+																	</p>
+															<p>
+																		<span class="autotype">（1）Through the hierarchical clustering algorithm,</span>
+																				 the visual search pattern of the driver
+																				's different driving intention is extracted.
+																				 In the case of a green light,
+																				 there are pattern L and pattern LS when turning to the left,
+																				 pattern R and pattern LS when going straight,
+																				 and pattern LS and pattern R when turning right.
+																				 In the case of a red light,
+																				 pattern X and pattern L exist when turning left;
+																				 pattern X and pattern XC exist when going straight;
+																				 pattern LX and pattern RX exist when turning right..
+																	</p>
+															<p>
+																		（2）The existing data are analyzed and analyzed by Matlab,
+																				<span class="autotype"> and the corresponding parameters of the</span>
+																				 gaze characteristics are summarized,
+																				 including the frequency of gaze,
+																				 the duration of gaze and the probability of transition.
+																				 Based on the existing data,
+																				 the various kinds of gaze characteristi
+																				cs of 13 regions were analyzed and analyzed respectively.
+																	</p>
+															<p>
+																		（3）Based on the visual search model,
+																				 a new pre-computation method is propose
+																				d to combine the clustering results with supervised learning.
+																				 The supervised learning algorithms used
+																				 are: Support Vector Machine (LibSVM) and Random Forest.
+																				 Cooperate with grid search method and c
+																				ross validation to get the best model parameters.
+																	</p>
+															<p>
+																		（4）The new prediction method is compar
+																				ed with the traditional supervised learning method.
+																				 The results show that the new predictio
+																				n method can be used to optimize the mod
+																				<span class="autotype">el and improve the classification accuracy.</span>
+																	</p>
+															<p>
+																		Key words: Visual search pattern;
+																				<span class="autotype"> Driving intention;</span>
+																				<span class="autotype"> Hierarchical Clustering;</span>
+																				<span class="autotype"> Support vector machine;</span>
+																				 Random forest 
+																	</p>
+															<p>
+																		绪 论
+																	</p>
+															<p>
+																		研究背景与意义
+																	</p>
+															<p>
+																		<span class="autotype">十字路口作为城市道路交通系统的重要组成部分，汇集了各个方向的交通,</span>
+																				<span class="autotype">在道路交通系统中属于核心地位。</span>
+																				交叉路口存在多处冲突点（如图1-1），机动车和机动车之间,
+																				<span class="autotype">机动车和非机动车或行人之间相互干扰严重,因此,</span>
+																				<span class="autotype">交叉路口及其附近地带也是道路交通事故的多发地带。</span>
+																				<span class="autotype">预防和控制交叉路口事故,提高道路交通的安全通畅,</span>
+																				已成为道路交通研究不可缺失的主题。
+																	</p>
+															<p>
+																			交叉口高峰小时冲突类型及分布
+																	</p>
+															<p>
+																		<span class="autotype">驾驶意图是驾驶行为的内在状态，驾驶意图辨识是驾驶行为预测的前提。</span>
+																				<span class="autotype">因此，通过辨识城市交通环境下的驾驶意图，进而预测驾驶行为，</span>
+																				对于减少十字路口事故发生率具有重大的意义。
+																	</p>
+															<p>
+																		作为获取信息的主要通道，驾驶员的视觉系统有着非常重要的作用，
+																				而驾驶人的视觉特性与驾驶意图之间存在密切联系。
+																				因此，可以通过十字路口驾驶员动态视觉搜索模式来预测驾驶员的驾驶意图，
+																				<span class="autotype">从而减少十字路口的伤亡率。</span>
+																	</p>
+															<p>
+																			国内外研究现状
+																	</p>
+															<p>
+																		国内研究现状
+																	</p>
+															<p>
+																		我国经济发展较西方国家起步较晚，汽车产业更是滞后于西方发达国家，
+																				因而对汽车技术的相关研究也比国外落后。
+																				但近些年来，不少研究人员在这方面也做出了不少贡献，
+																				对驾驶员的驾驶行为及意图方面的研究也在不断进行中。
+																	</p>
+															<p>
+																		<span class="autotype">长安大学的马勇[1]等人研究了车速与标志字</span>
+																				<span class="autotype">体高度因素对视觉搜索广度、注视持续行为及视角分布的影响。</span>
+																				并发现驾驶员对道路中心区域的注视频率最高，
+																				并且总是较多地关注道路左侧区域及距车辆较近的区域，
+																				车速的提高使得驾驶员对远处区域的注视逐渐增多。
+																	</p>
+															<p>
+																		<span class="autotype">施晓芬[2]在真实交通环境中进行了实车试验。</span>
+																				通过将一个完整的交叉口行驶过程划分成18种情况，并根据不同的情况，
+																				<span class="autotype">分析驾驶员驶近交叉口和通过交叉口的速度控制方式和视觉搜索模式。</span>
+																				<span class="autotype">发现不论驾驶员以何种通行方式驶近及通过交叉口，驾驶员对前方区域的关注最多，</span>
+																				<span class="autotype">且视觉搜索大多数从前方区域发出经过某一区域之后又回到前方区域。</span>
+																	</p>
+															<p>
+																		东南大学的王芳[6]等人通过室内驾驶员眼动试验,
+																				详细分析了驾驶员在不同公路平面线形条件下的驾驶员搜索模式特性。
+																				发现驾驶员在直线段的注视持续时间明显高于曲线段 ,
+																				且视野范围明显小于曲线段的视野范围，注视点出现前移现象，
+																				从而说明了曲线段的视觉信息高于直线段。
+																	</p>
+															<p>
+																		合肥工业大学的朱人可[7]使用眼动仪记录了
+																				驾驶人在昼夜不同环境下驾驶过程中的眼动数据，
+																				<span class="autotype">在以累积注视时间、视角特征、注视持续时间</span>
+																				<span class="autotype">和视角搜索广度几个指标作为视觉搜索模式的基本表征参数的前提下，</span>
+																				发现驾驶人的水平视角、垂直视角、注视频次
+																				<span class="autotype">和视觉热点等指标随着昼夜环境变化存在盘著性差异（白天搜索范围更广，</span>
+																				夜间更加关注前方中远距离）。
+																	</p>
+															<p>
+																		吉林大学的杨诚[9]基于隐马尔可夫理论，
+																				选取了能够表征驾驶人视觉特性的 6 个参数，
+																				即对后视镜的注视次数、注视时间、注视点转
+																				移路径、扫视幅度、扫视速度和头部转角，
+																				利用MATLAB软件自带的HMM工具箱编程，建立了驾驶人换道意图识别模型，
+																				并利用测试样本对识别模型进行验证。
+																				<span class="autotype">该文所建立的模型有较高的识别准确率，为驾驶人意图领域的研究提供重要的借鉴。</span>
+																	</p>
+															<p>
+																		江苏大学的刘志强[10]基于profit-sharing增强学习算法，
+																				<span class="autotype">提出了自适应性驾驶员意图辨识的方法，对交叉口驾驶员转向意图进行辨识，</span>
+																				<span class="autotype">达到了缩短辨识所需时间和提高驾驶意图辨识准确性的目的。</span>
+																	</p>
+															<p>
+																		上海工程技术大学的麻婷婷[11]基于支持向量机的方法，
+																				进一步完善驾驶员辅助系统的功能，对驾驶员超车意图进行辨识。
+																				在以方向盘转角、自车车速、车辆与道路边界
+																				距离和驾驶人眼部运动信息组合为指标时，
+																				可获得最佳识别效果。
+																	</p>
+															<p>
+																		长安大学的彭金栓[12]运用证据理论与Logistic回归，基于子模块的划分，
+																				<span class="autotype">对驾驶人的换道意图进行有效识别。</span>
+																				将视觉特性子模块与车辆运动子模块的识别方法进行融合集成后，
+																				总体识别成功率较高，且识别时刻有效提前，表明了集成方法的可靠性及稳定性。
+																	</p>
+															<p>
+																		清华大学的王玉海[13]等人提出了基于模糊推理的驾驶员意图识别研究。
+																				<span class="autotype">根据相应的实车实验数据和经验收集,制定了模糊推理的规则库，</span>
+																				建立了多输入单输出的模糊推理模型。
+																				<span class="autotype">对实车实验数据进行了离线识别验证，能够比较准确完整的识别驾驶员意图。</span>
+																	</p>
+															<p>
+																		国外研究现状
+																	</p>
+															<p>
+																		国外在驾驶意图和驾驶行为预测的方向上进展比国内早，研究也具有特点，
+																				值得国内研究人员所学习。
+																	</p>
+															<p>
+																		<span class="autotype">Olsen等人[3]把驾驶人驾驶过程中的注视点划分为多个注视区域，</span>
+																				研究换道过程中注视点与驾驶意图的规律，
+																				发现向左换道前驾驶人对左侧兴趣区域的关注程度约为直行时的2倍。
+																	</p>
+															<p>
+																		Salvucci D D等人[4]通过驾驶模拟器，
+																				研究在高速公路环境中车道改变的时间与眼动行为关系时，
+																				发现司机将他们的主要视觉焦点在车道变更发生后，
+																				立即从起跑线转向到达目的地车道。
+																	</p>
+															<p>
+																		Mori M等人[5]通过驾驶员行驶过程中脸部的视频，
+																				采用手动标记驾驶员的注视方向的方式，
+																				研究驾驶员意识与注视行为、碰撞风险之间的关系。
+																				他们计算了注视资源在汽车八个区域内的资源分布，并发现注视行为存在个体差异，
+																				专家司机的意识水平比非专家司机高。
+																	</p>
+															<p>
+																		Liu A[8]提出驾驶员当前的控制动作、视觉搜
+																				<span class="autotype">索行为以及周围的交通环境可用于推测驾驶员意图。</span>
+																				在实际实验中，仅通过驾驶员的控制动作（即转向和加速动作），
+																				成功推断出了驾驶员的驾驶意图，并讨论了使用注视信息进一步改进的可能性。
+																	</p>
+															<p>
+																		Zong C等人[14]提出一种结合人工神经网络（
+																				<span class="autotype">ANN）和隐马尔可夫链模型（HMM）的综合模型，</span>
+																				<span class="autotype">以确定驾驶意图并预测驾驶员的机动行为，从而实现智能驾驶辅助，</span>
+																				<span class="autotype">提高车辆的主动安全性。</span>
+																				他们采用直线和双线更改的驾驶模拟器测试来验证该模型的可用性。
+																				测试结果表明，该模型可以对司机操纵行为的精确预测。
+																	</p>
+															<p>
+																		Tezuka S等人[15]使用贝叶斯网络中静态类型的条件高斯模型，通过在车道变换时，
+																				获取转向角数据以此来推断驾驶员行为。
+																				与HMM模型相比，该方法降低了不正确的推理包含率。
+																	</p>
+															<p>
+																		主要研究内容
+																	</p>
+															<p>
+																		本研究基于Matlab在现有数据库基础上，采用特征筛选算法遴选最优表征参数，
+																				通过聚类方法析取驾驶员的动态视觉搜索模式，
+																				并且将聚类结果与有监督学习相结合，提出一种提高分类准确率的新方法。
+																				<span class="autotype">本文的内容组织结构如下：</span>
+																	</p>
+															<p>
+																		第1章 绪论。
+																				<span class="autotype">介绍本次研究的背景以及意义，</span>
+																				对近年来国内外在相关领域的研究成果进行了总结分析，
+																				<span class="autotype">最后说明本文的主要研究内容以及结构安排。</span>
+																	</p>
+															<p>
+																		第2章 研究方法。
+																				<span class="autotype">本章主要阐述论文的研究思路以及方法，同时也对课题内重要的参数的介绍。</span>
+																	</p>
+															<p>
+																		<span class="autotype">第3章 数据预处理。</span>
+																				首先在数据库内提取实验所需数据并整合，然后进行特征选择，
+																				得到对分类器起主要作用的特征。
+																	</p>
+															<p>
+																		第4章 模式析取。
+																				本章首先以相关系数、簇内样本数为参考，优选出最佳聚类参数。
+																				接下来采用层次聚类算法，得到不同驾驶意图下的动态视觉搜索模式，
+																				<span class="autotype">并进行对聚类后结果进行分析。</span>
+																	</p>
+															<p>
+																		第5章 建模和预测。
+																				本章首先对本课题所采用的有监督学习算法进行介绍，
+																				<span class="autotype">继而提出一种将聚类结果与有监督学习结合的新预测方法，</span>
+																				<span class="autotype">并与传统有监督学习方法进行比较。</span>
+																	</p>
+															<p>
+																		第6章 结论。
+																				归纳总结了实验结果，并梳理研究中主要结论。
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		研究方法
+																	</p>
+															<p>
+																		本章主要对研究方法及过程进行总述，
+																				其中包括数据库的构建以及对本课题中重要的
+																				三个参数——信号灯、驾驶意图和视觉特征进行介绍。
+																	</p>
+															<p>
+																		研究方法总述
+																	</p>
+															<p>
+																		本论文的研究流程如图2-1所示。
+																	</p>
+															<p>
+																		<span class="autotype">	论文研究方法流程图</span>
+																	</p>
+															<p>
+																		研究过程中，首先对现有数据进行分析整理，
+																				这里面包括提取必要数据和对相应数据的整合。
+																				<span class="autotype">其中，十字路口处驾驶员的驾驶意图分为三种：左转、右转、直行，</span>
+																				那么根据这三种驾驶意图，驾驶员在同一种十字路口处也会表现出不同的注视特性。
+																				那么作为对比，也选取两种十字路口做一个分析。
+																	</p>
+															<p>
+																		<span class="autotype">第二步，进行数据预处理。</span>
+																				对提取后的数据，进行特征选择和归一化。
+																				特征选择可减少数据的维度、去除无关数据特征，可有效提高分类器性能。
+																				在本研究中，
+																				采用FEAST（a FEAture Selection Toolbox f
+																				or C and MATLAB）算法与显著性检验结合进行特征的选择。
+																	</p>
+															<p>
+																		第三步，析取驾驶员动态视觉搜索模式。
+																				采用层次聚类算法，得到不同信号灯情况下，
+																				驾驶员在表现出不同驾驶意图时的视觉搜索模式，并进行结果分析
+																	</p>
+															<p>
+																		<span class="autotype">第四步，提出一种将聚类结果与有监督学习结合的新预测方法。</span>
+																				其中，
+																				<span class="autotype">有监督学习采用支持向量机（Support Vector</span>
+																				<span class="autotype"> Machine）和随机森林（Random Forest）两种方法。</span>
+																				最后，对新方法与传统方法进行效能比对，分析数据得出结论。
+																	</p>
+															<p>
+																		数据库构建
+																	</p>
+															<p>
+																		本毕业设计研究的数据采集方法主要为视频采集，并且以调查问卷为辅佐。
+																	</p>
+															<p>
+																		视频采集数据具体方法为：将配有前后摄像头的行车记录仪安装在实验车，
+																				拍摄记录10位实验人员在约一周内的驾驶行为，
+																				并且在后期进行人工的视频分析从而提取出实
+																				验人员的驾驶注视行为、驾驶时间、驾驶状态、信号灯种类等信息，
+																				建立起基本的驾驶员视觉信息数据库。
+																	</p>
+															<p>
+																		数据采集调查问卷收集为辅佐，
+																				问卷内容针对驾驶员的驾驶行为及驾驶风险性量化进行提问。
+																	</p>
+															<p>
+																		本毕业设计采用上述数据库进行后续的研究。
+																	</p>
+															<p>
+																		基本参数描述
+																	</p>
+															<p>
+																		信号灯
+																	</p>
+															<p>
+																		<span class="autotype">信号灯是一种用于交通管理重要工具，可有效减少交通事故，提高道路使用率。</span>
+																				信号灯分为机动车信号灯和非机动车信号灯，本文所研究的对象为驾驶员，
+																				因此后文中信号灯均指代的机动车信号灯。
+																				常见的机动车信号灯由红色、黄色、绿色三中无图案圆形单位组成，
+																				驾驶员需根据路口信号灯的颜色做出相应的驾驶行为。
+																				<span class="autotype">红灯亮时，机动车禁止通行。</span>
+																				<span class="autotype">绿灯亮时，准许机动车通行，但转弯的车辆不得妨碍被放行的直行车辆、行人通行。</span>
+																				<span class="autotype">黄灯亮时，若车辆已经越过停止线，可以继续通行。</span>
+																	</p>
+															<p>
+																		十字路口处的红绿信号灯的颜色很大程度上影响了驾驶员的行为。
+																				黄灯情况下，驾驶员会根据机动车的位置而做出不同的行为。
+																				绿灯和红灯情况下，驾驶员的行为较黄灯而言更为统一且信号灯状态保持时间较长，
+																				因此，在本研究中选取绿灯和红灯两种典型的信号灯状态进行研究。
+																	</p>
+															<p>
+																		驾驶意图
+																	</p>
+															<p>
+																		驾驶员在十字路口处的驾驶意图主要有左转、右转和直行三种，
+																				因此本次研究属于一个三分类问题。
+																				我们所要研究的驾驶意图预测是基于上述三种驾驶意图。
+																	</p>
+															<p>
+																		<span class="autotype">驾驶意图是驾驶员驾驶行为的一种内在响应，</span>
+																				因此必然存在相应的外在响应将其反映。
+																				常见的外在响应可以为肢体上的行为，
+																				比如说手动方向盘的控制、脚对油门刹车的控制，也可以为驾驶员的视觉特征，
+																				比如说眼睛关注前方车道。
+																				人的潜意识会以各种形式展示，但眼睛是驾驶员获取道路信息最主要的渠道，
+																				因此在本研究中选取视觉特征作为驾驶意图预测的重要参数。
+																	</p>
+															<p>
+																		视觉特征
+																	</p>
+															<p>
+																		驾驶员的视觉特征展示的是眼球运动的特性。
+																				在驾驶过程中，驾驶员的视觉特征可以用于表示驾驶员注意力变化的规律。
+																				在经过十字路口时，驾驶员会根据后续的驾驶行为做出相应的注意力转移，
+																				包括注视区域的变化、注视时间的变化等等。
+																	</p>
+															<p>
+																		为了更好的描述驾驶员视觉变化的规律，
+																				本次研究将在十字路口处的车内车外大致分为13个区域，从而将视觉特性量化。
+																				图2-2是13个区域的划分。
+																				这些区域包括：1前方道路、2右前方道路、3
+																				后视镜、4左视镜、5右视镜、6信号灯、7仪表
+																				盘、8左侧、9右侧、10中控区、11乘客、12左侧道路区域、13其他。
+																	</p>
+															<p>
+																			十字路口行车区域划分
+																	</p>
+															<p>
+																		<span class="autotype">描述视觉变化规律的特征很多，</span>
+																				在这里同样是选取具有典型意义的特征作为研究驾驶员驾驶意图的视觉特性。
+																				一是驾驶员注视某一区域的总时长，其定义为注视时长（Duration）。
+																				二是驾驶员注视某一区域的总次数，其定义为注视频次（Frequency）。
+																				三是驾驶员注视区域的转移，即从某一区域转移到另一区域的概率，
+																				<span class="autotype">其定义为转移概率（Transition Probability），转移概率具体计算方式如下：</span>
+																	</p>
+															<p>
+																		区域X到区域Y的转移次数/区域X到所有区域的总转移次数							（1-1）
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		数据预处理
+																	</p>
+															<p>
+																		本章将描述研究中数据预处理的过程。
+																				其中包括，提取红绿灯数据、归一化和特征选择的过程。
+																				通过筛选的到十个优选特征，为后续的研究做铺垫。
+																	</p>
+															<p>
+																		关于数据提取和数据处理的相关内容均为Matlab编程完成，具体程序见附录。
+																	</p>
+															<p>
+																		提取红绿灯数据
+																	</p>
+															<p>
+																		由于数据库内存在于本研究中不相关的数据，
+																				例如驾驶状态、驾龄、其他路口类型等等，
+																				因此需要自行编程提取出本研究中所需数据。
+																	</p>
+															<p>
+																		本研究中涉及信号灯状态、驾驶员驾驶意图以
+																				及视觉特征（注视时长、注视频次和转移概率）。
+																	</p>
+															<p>
+																		提取后数据总览如表3-1所示。
+																	</p>
+															<p>
+																			红绿灯数据总览
+																	</p>
+															<p>
+																		驾驶意图	绿灯	红灯
+																	</p>
+															<p>
+																		左转个数，个	28	26
+																	</p>
+															<p>
+																		直行个数，个	61	54
+																	</p>
+															<p>
+																		右转个数，个	35	16
+																	</p>
+															<p>
+																		总数，个	124	96
+																	</p>
+															<p>
+																		在提取数据后，需要对数据进行归一化，使各特征处于同一数量级，
+																				消除特征之间的量纲影响。
+																	</p>
+															<p>
+																		特征选择
+																	</p>
+															<p>
+																		本次研究的数据特征包含13个区域的注视频次
+																				特征（13个）、13个区域的注视时长特征（13
+																				个）、13个区域分别的转移概率特征（169个），
+																				共计195个特征。
+																				这195个特征中，有很大一部分特征和本次研究的相关性很低，
+																				例如从1前方道路到1前方道路的转移概率，其理论值和实际值应该均为0，
+																				对实验的研究并无帮助，这一类特征显然没有用处。
+																				同时，特征选择可以减少数据的维度，能有效提高训练模型的速度，
+																				因此需要进行特征选择。
+																	</p>
+															<p>
+																		本研究中首先采用FEAST算法得到优选特征参考排序，然后进行显著性检验，
+																				对特征选择结果进行优化。
+																	</p>
+															<p>
+																		FEAST算法简介
+																	</p>
+															<p>
+																		对特征的筛选有相应的算法，
+																				本次研究选用的算法为FEAST（a FEAture Sel
+																				ection Toolbox for C and MATLAB）算法。
+																				FEAST提供了基于互信息的特征优选算法（Joint Mutual Information，
+																				JMI）的实现，它以离散化的数据为输入，返回所选出的特征的序号    [1]。
+																	</p>
+															<p>
+																		该算法综合考虑了候选特征之间的相关性、冗余度以及互补性，
+																				可更优的表达不同分类之间的特性差异，提高分类精度。
+																	</p>
+															<p>
+																		显著性检验简介
+																	</p>
+															<p>
+																		<span class="autotype">显著性检验（significance test）可用于判</span>
+																				<span class="autotype">断就是事先对总体（随机变量）的参数或总体分布形式做出一个假设，</span>
+																				<span class="autotype">然后利用样本信息来判断这个假设（备择假设）是否合理，</span>
+																				<span class="autotype">即判断总体的真实情况与原假设是否有显著性差异。</span>
+																	</p>
+															<p>
+																		FEAST算法在输出优选特征时会提高一个参考排序，但由于FEAST算法存在缺陷，
+																				显著性差异小的特征在排序结果中可能会较靠前，
+																				会导致某些显著性差异大的特征排序靠后，从而错过这些更优的特征，
+																				因此采用显著性检验对特征选择结果进行优化。
+																	</p>
+															<p>
+																		显著性检验时，首先假设某个特征与驾驶意图不相关，
+																				即假设该特征的显著性差异小。
+																				然后输出一个P值，该P值代表了上述假设发生的概率。
+																				在统计学中，当P值小于0.05时，可认为上述假设为小概率事件，即该假设不成立。
+																				由此可得，当P越值小，某个特征与驾驶意图越相关，显著性差异越大。
+																	</p>
+															<p>
+																		特征选择流程
+																	</p>
+															<p>
+																		<span class="autotype">图3-1为本研究中特征选择的流程，该算法过程与冒泡排序思想类似。</span>
+																	</p>
+															<p>
+																		首先采用FEAST算法筛选得到20个优选特征。
+																				第二，根据FEAST算法结果提供的重要性排序将特征均分为两组，第一组为优选元素，
+																				第二组内元素为备选元素。
+																				第三，进行显著性检验，计算出每个特征的P值。
+																				第四，初始化优选组的序号i和备选组的序号j，为后面的循环做准备。
+																	</p>
+															<p>
+																		第五，优选组第i个特征与备选组第j个特征的P值进行比较，
+																				若优先组特征的P值高于第二组元素P值，则互换，并计算准确率，
+																				然后j加一直至j等于10，即遍历完所有备选组特征。
+																	</p>
+															<p>
+																		第六，保留替换前后准确率最高的替换，i加一和初始化j。
+																				重复步骤五，直至i等于10，即遍历完所有优选组特征。
+																				最终得到十个优化后的优选特征。
+																	</p>
+															<p>
+																			特征选择流程图
+																	</p>
+															<p>
+																		特征选择结果
+																	</p>
+															<p>
+																		经过特征选择，前十位优选特征如表3-2所示。
+																	</p>
+															<p>
+																			前十位优选特征
+																	</p>
+															<p>
+																		优选特征	信号灯状态
+																	</p>
+															<p>
+																			绿灯	红灯
+																	</p>
+															<p>
+																		1	右前方道路的注视时长	前方道路到左侧的转移概率
+																	</p>
+															<p>
+																		2	前方道路的注视频次	信号灯的注视频次
+																	</p>
+															<p>
+																		3	右前方道路的注视频次	其他区域的注视频次
+																	</p>
+															<p>
+																		4	前方道路到左侧道路区域的转移概率	前方道路的注视频次
+																	</p>
+															<p>
+																		5	左视镜的注视频次	右前方道路的注视频次
+																	</p>
+															<p>
+																		6	前方道路到右前方道路的转移概率	左侧的注视频次
+																	</p>
+															<p>
+																		7	前方道路到左侧的转移概率	前方道路到左视镜的转移概率
+																	</p>
+															<p>
+																		8	左侧道路区域的注视时长	左侧道路区域的注视时长
+																	</p>
+															<p>
+																		9	前方道路到左视镜的转移概率	右视镜的注视时长
+																	</p>
+															<p>
+																		10	左侧道路区域的注视频次	前方道路到右前方道路的转移概率
+																	</p>
+															<p>
+																		从上表可以看出，相比于绿灯，在红灯情况下，与右侧有关的特征排序下降，
+																				说明驾驶员对右侧的关注度减少，同时可发现，
+																				驾驶员对信号灯和其他区域区域的关注度提升，与现实情况较贴合。
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		模式析取
+																	</p>
+															<p>
+																		<span class="autotype">本章的主要内容为采用层次聚类算法，</span>
+																				析取出不同驾驶意图下驾驶员的视觉搜索模式，并对所得聚类结果进行分析。
+																	</p>
+															<p>
+																		聚类算法简介
+																	</p>
+															<p>
+																		聚类算法选择
+																	</p>
+															<p>
+																		<span class="autotype">聚类是将物理或者抽象对象的集合分组为由类似的对象组成的多个类的分析过程，</span>
+																				<span class="autotype">即按照某个特定标准(如距离准则)把一个数据集分割成不同的类（或簇），</span>
+																				<span class="autotype">使得同一个簇内的数据对象的相似性尽可能大，</span>
+																				同时不在同一个簇中的数据对象的差异性也尽可能地大。
+																	</p>
+															<p>
+																		聚类分析的算法有多种，常见算法有：K-means、层次聚类算法、FCM聚类算法等等。
+																				因为在本研究中，无法事先得知驾驶员视觉搜索模式的数量，
+																				因此适合采用不需要输入分类个数的层次聚类算法，在生成聚类树之后，
+																				根据相关参数，再划分簇的个数。
+																	</p>
+															<p>
+																		层次聚类算法
+																	</p>
+															<p>
+																		<span class="autotype">层次聚类（Hierarchical Clustering）是无监督学习算法的一种，</span>
+																				<span class="autotype">通过计算不同样本点间的距离来创建一棵有层次的聚类树。</span>
+																				在聚类树中，所有原始样本点是树的最低层，树的顶层是一个聚类的根节点。
+																	</p>
+															<p>
+																		创建聚类树有自下而上凝聚和自上而下分裂两种方法。
+																				凝聚的层次聚类方法刚开始每个点都认为是一个簇，
+																				然后寻找最相近的簇不断地合并。
+																				<span class="autotype">分裂的层次聚类方法即把所有的对象一开始都放到一个簇中开始，不断向下划分，</span>
+																				直到满足某种设定的条件停止分裂。
+																	</p>
+															<p>
+																		本研究中采用的是自下而上凝聚的方法，分别得到绿灯和红灯情况下，
+																				左转、直行、右转三种驾驶意图下的聚类结果。
+																	</p>
+															<p>
+																		聚类参数寻优
+																	</p>
+															<p>
+																		<span class="autotype">层次聚类算法步骤如图4-1所示。</span>
+																				首先确定距离计算方法，计算数据间的距离。
+																				然后根据所设定的连接方式，将距离最近的样本或簇合并，
+																				合并后将成为一个新的簇，不断循环合并过程，直至全部数据合并在同一个簇内，
+																				聚类结束。
+																				 
+																	</p>
+															<p>
+																			层次聚类流程图
+																	</p>
+															<p>
+																		<span class="autotype">距离计算方式有：欧式距离（euclidean）、</span>
+																				<span class="autotype">欧氏距离平方（squaredeuclidean）、标准化</span>
+																				<span class="autotype">欧式距离（seuclidean）、曼哈顿距离（city</span>
+																				<span class="autotype">block）、闵可夫斯基距离（minkowski）、切</span>
+																				比雪夫距离（chebychev）、马哈拉诺比斯距
+																				<span class="autotype">离（mahalanobis）、余弦相似度（cosine）</span>
+																				<span class="autotype">、皮尔逊相关系数（correlation）、斯皮尔</span>
+																				曼距离（spearman）、汉明距离（hamming）、杰卡德距离（jaccard）。
+																	</p>
+															<p>
+																		连接方式有：平均值连接法（average linkag
+																				e）、质心法（centroid linkage）、全连接
+																				法（complete linkage）、中值连接法（medi
+																				<span class="autotype">an linkage）、单连接法（single linkage）</span>
+																				、离差平方和法（Ward’s method）、加权平均连接法（weighted linkage）。
+																	</p>
+															<p>
+																		<span class="autotype">不同的距离计算方式和连接方式会对聚类结果产生不同的影响，因此，</span>
+																				在聚类之前需要确定最佳的距离计算方式和连接方式。
+																				在本研究中，用下面两个依据来对聚类结果进行评估，从而选出最佳聚类参数。
+																	</p>
+															<p>
+																		<span class="autotype">1、相关系数要尽可能大。</span>
+																	</p>
+															<p>
+																		2、每个簇中样本数量不少于总样本量的33%。
+																	</p>
+															<p>
+																		相关（cophenet）系数可用于检测二叉聚类树
+																				中各元素间的距离和实际的距离之间有多大的相关性。
+																				<span class="autotype">该系数越接近1，表示聚类效果越好。</span>
+																				而对类中样本数量的限制，为后续有监督学习做准备。
+																				聚类划分的个数不宜太多，因此设置最佳聚类个数最多为3个，故选取33%。
+																				根据上述两个规则，可编写程序自动搜索最优聚类参数，程序流程图如图4-2所示。
+																	</p>
+															<p>
+																			聚类参数寻优流程图
+																	</p>
+															<p>
+																		所得结果如表4-1所示绿灯，如表4-2所示
+																	</p>
+															<p>
+																			绿灯最佳聚类参数
+																	</p>
+															<p>
+																		最佳聚类参数	距离计算方法	连接方法	相关系数
+																	</p>
+															<p>
+																		左转	切比雪夫距离	平均值连接法	0.735
+																	</p>
+															<p>
+																		直行	皮尔逊相关系数	平均值连接法	0.758
+																	</p>
+															<p>
+																		右转	余弦相似度	离差平方和法	0.598
+																	</p>
+															<p>
+																			红灯最佳聚类参数
+																	</p>
+															<p>
+																		最佳聚类参数	距离计算方法	连接方法	相关系数
+																	</p>
+															<p>
+																		左转	标准化欧式距离	加权平均连接法	0.773
+																	</p>
+															<p>
+																		直行	切比雪夫距离	离差平方和法	0.391
+																	</p>
+															<p>
+																		右转	欧式距离	加权平均连接法	0.748
+																	</p>
+															<p>
+																		以下对上述涉及到的距离计算方法以及连接方法进行简要描述。
+																	</p>
+															<p>
+																		切比雪夫距离是其各坐标数值差绝对值的最大值。
+																	</p>
+															<p>
+																		<span class="autotype">皮尔逊相关系数为两个变量之间的协方差和标准差的商，</span>
+																				用于度量两个变量之间的相关程度，其值介于-1与1之间。
+																	</p>
+															<p>
+																		<span class="autotype">余弦相似度为两个向量的夹角余弦值，夹角越小，余弦值越接近于1，</span>
+																				它们的方向更加吻合，则越相似。
+																	</p>
+															<p>
+																		欧式距离指在m维空间中两个点之间的真实距离。
+																	</p>
+															<p>
+																		<span class="autotype">标准化欧式距离是欧式距离的一种改进方案，</span>
+																				先将数据进行标准化后再进行欧式距离的计算。
+																	</p>
+															<p>
+																		平均值连接法倾向于距离的平均值差异小的两个类。
+																				该介于单连接法和全连接法之间，它考虑到了类的结构，
+																				产生的分类具有相对的鲁棒性。
+																	</p>
+															<p>
+																		离差平方和法，倾向于在每一次合并时，使簇内的离差平方和的增量最小。
+																	</p>
+															<p>
+																		<span class="autotype">加权平均连接法相似于平均值连接法，</span>
+																				但是在计算类间距的时候给距离加上了相当于类中成员个数倒数的权重。
+																	</p>
+															<p>
+																		聚类结果
+																	</p>
+															<p>
+																		绿灯聚类树形图
+																	</p>
+															<p>
+																		根据上一节所得最佳聚类参数，可以通过层次聚类，
+																				得到不同信号灯状态下不同驾驶意图的聚类树。
+																				如图4-3、图4-4、图4-5所示，分别为绿灯情况下，左转、直行、右转的树形图。
+																	</p>
+															<p>
+																			绿灯时左转的聚类树形图
+																	</p>
+															<p>
+																			绿灯时直行的聚类树形图
+																	</p>
+															<p>
+																			绿灯时右转的聚类树形图
+																	</p>
+															<p>
+																		<span class="autotype">在每一次聚类合并过程中，会计算每一个新聚类中的不一致（inconsistent）系数。</span>
+																				若不一致系数有大幅度增加，说明上一次并类效果比较好，
+																				因此可以参考不一致系数的变化，确定最佳分类个数，
+																				<span class="autotype">所得的类即为驾驶员视觉搜索模式。</span>
+																	</p>
+															<p>
+																		由不一致系数得，绿灯情况下，左转驾驶意图的数据可划分了两类，
+																				模式1占总样本量35.7%，模式2占总样本量64.3%
+																	</p>
+															<p>
+																		直行驾驶意图的数据可划分了两类，模式1占总样本量39.3%，模式2占总样本量60.7%
+																	</p>
+															<p>
+																		右转驾驶意图的数据可划分了两类，模式1占总样本量37.1%，
+																				模式2占总样本量62.9%。
+																	</p>
+															<p>
+																		红灯聚类树形图
+																	</p>
+															<p>
+																		如图4-6、图4-7、图4-8所示，分别为红灯情况下，左转、直行、右转的树形图。
+																				由不一致系数得，左转驾驶意图的数据可划分了两类，模式1占总样本量38.5%，
+																				模式2占总样本量61.5%
+																	</p>
+															<p>
+																		直行驾驶意图的数据可划分了两类，模式1占总样本量63%，模式2占总样本量37%
+																	</p>
+															<p>
+																		右转驾驶意图的数据可划分了两类，模式1占总样本量68.7%，
+																				模式2占总样本量31.3%。
+																	</p>
+															<p>
+																			红灯时左转聚类树形图
+																	</p>
+															<p>
+																			红灯时直行聚类树形图
+																	</p>
+															<p>
+																			红灯时右转聚类树形图
+																	</p>
+															<p>
+																		<span class="autotype">调和曲线分析聚类结果</span>
+																	</p>
+															<p>
+																		调和曲线简介
+																	</p>
+															<p>
+																		在数据可视化中，调和曲线是一种可将高维数据中结构可视化的图    [1]，
+																				<span class="autotype">每一次观测数据（高维的数据）对应一条调和曲线。</span>
+																				<span class="autotype">在本研究中的数据是高维数据，</span>
+																				因此通过线性变换映射到二维平面上的曲线上    [3]，
+																				调和曲线可以表示本研究中不同类的特点。
+																	</p>
+															<p>
+																		按照公式4-1，将每个样本的特征值转化为傅里叶序列的系数来创建曲，
+																				<span class="autotype">曲线纵坐标的值代表了傅里叶级数的系数（t∈[0，1]）。</span>
+																	</p>
+															<p>
+																		f(t)=x_1/√2+x_2  sin⁡
+																				〖(t)+" " x_3  cos⁡
+																				〖(t)+〗 〗⋯+x_9  cos⁡
+																				〖(t)+" " x_10  sin⁡
+																				(t) 〗	  （4-1）
+																	</p>
+															<p>
+																		式中：
+																	</p>
+															<p>
+																		f——傅里叶级数的系数；
+																	</p>
+															<p>
+																		t——时间；
+																	</p>
+															<p>
+																		xi——第i个特征。
+																	</p>
+															<p>
+																		将每一类曲线标成不同颜色可以可视化聚类数据，
+																				属于相同类别的样本的曲线通常更加接近并构成了更大的结构。
+																				通过分析每个类的特征分布，可以观测分类结果是否恰当。
+																	</p>
+															<p>
+																		不同驾驶意图的调和曲线
+																	</p>
+															<p>
+																		对于左转驾驶意图下的调和曲线，绿灯和红灯的调和曲线如图4-9所示。
+																	</p>
+															<p>
+																		（a）绿灯    						   		 （b）红灯
+																	</p>
+															<p>
+																			左转的调和曲线（虚线表示25%到75%的数据范围）
+																	</p>
+															<p>
+																		对于直行驾驶意图下的调和曲线，绿灯和红灯的调和曲线如图4-10所示。
+																	</p>
+															<p>
+																		（a）绿灯    						     （b）红灯
+																	</p>
+															<p>
+																			直行的调和曲线（虚线表示25%到75%的数据范围）
+																	</p>
+															<p>
+																		对于右转驾驶意图下的调和曲线，绿灯和红灯的调和曲线如图4-11所示。
+																	</p>
+															<p>
+																		（a）绿灯    						     （b）红灯
+																	</p>
+															<p>
+																			右转的调和曲线（虚线表示25%到75%的数据范围）
+																	</p>
+															<p>
+																		由调和曲线可以展示不同类之间彼此更不相同，
+																				不同类的四分位线和曲线形状差异较大，故认为分类结果较为良好。
+																	</p>
+															<p>
+																		模式特征分析
+																	</p>
+															<p>
+																		本小节基于特征分析不同模式之间的差别，
+																				总结不同模式的在特征上表现的规律及特点，
+																				同时为其命名以便于对不同视觉搜索模式的理解。
+																	</p>
+															<p>
+																		绿灯模式特征
+																	</p>
+															<p>
+																		首先，讨论绿灯情况下三种驾驶意图的视觉搜索模式。
+																				为了方便作图，将特征分别编号，并按其方位划分为左向、前向、右向三类。
+																	</p>
+															<p>
+																		与左向相关的特征： 1左侧道路区域的注视时
+																				长、2左侧道路区域的注视频次、3左视镜的注
+																				视频次、4前方道路到左侧的转移概率、5前方
+																				道路到左视镜的转移概率、6前方道路到左侧道路区域的转移概率。
+																	</p>
+															<p>
+																		与前向相关的特征：7前方道路的注视频次。
+																	</p>
+															<p>
+																		与右向相关的特征：8前方道路到右前方道路
+																				的转移概率、9右前方道路的注视时长、10右前方道路的注视频次。
+																	</p>
+															<p>
+																		从图4-12可分析得，绿灯情况下，左转驾驶意图下有两种视觉搜索模式。
+																				模式1（即为图中的曲线L）对于左视镜、左侧道路等关注度较高，
+																				与右向有关的特征数值普遍较低，可认为该模式较倾向于关注左向，
+																				因此将其命名为模式L。
+																	</p>
+															<p>
+																		模式2（即为图中的曲线LS）关于左向特征的转移概率较低，
+																				但在该方向上的注视频次和时长较模式是1有大幅度提高，
+																				因此也可认为模式2对于左向的关注度也较高。
+																				同时前方道路的注视频次数值非常突出，
+																				可认为驾驶员对前向道路也保持相当的关注度，因此将模式2命名为模式LS。
+																	</p>
+															<p>
+																			绿灯左转时模式特征分布
+																	</p>
+															<p>
+																		从图4-13可分析得，绿灯情况下，直行时有两种视觉搜索模式。
+																				模式1（即为图中的曲线R）对于右前方道路的注视特征均比较突出，
+																				对前向道路关注中等，对左侧道路区域关注度非常低，
+																				可认为该模式下驾驶员将注意力大多集中在右向，因此将其命名为模式R。
+																	</p>
+															<p>
+																		模式2（即为图中的曲线LS）不仅前方道路关注度较高，同时也关注左侧道路，
+																				因此可认为该模式较倾向于关注前向和左向，将其命名为模式LS。
+																	</p>
+															<p>
+																			绿灯直行时模式特征分布
+																	</p>
+															<p>
+																		从图4-14可得，绿灯情况下，右转驾驶意图下有两种视觉搜索模式。
+																				模式1（即为图中的曲线LS）对于左视镜和前方道路的关注度较高，
+																				可认为该模式较倾向于关注前向和左向，因此将其命名为模式LS。
+																	</p>
+															<p>
+																		相比于模式1，模式2（即为图中的曲线R）对于右前方道路的关注度更高，
+																				可认为该模式较倾向于关注右向，因此将其命名为模式R。
+																	</p>
+															<p>
+																			绿灯右转时模式特征分布
+																	</p>
+															<p>
+																		对比三种驾驶意图的视觉搜索模式之间的差别可分析得，
+																				每种驾驶意图下都存在侧重关注前方的模式，
+																				说明前方道路是驾驶员重点关注的区域。
+																				左转时，两种视觉搜索模式对左向的关注重点不同，
+																				模式L侧重关注左视镜即车辆后方，模式LS侧重关注左侧区域即车辆前方；
+																				直行时存在一种模式对左侧道路的关注度非常低，；
+																				右转时两种视觉搜索模式对左侧道路的关注度均较低。
+																	</p>
+															<p>
+																		红灯模式特征
+																	</p>
+															<p>
+																		与绿灯时类似，将特征选择后的特征分别编号，
+																				并按其方位划分为左向、前向、右向三类。
+																				其中特征“其他区域的注视频次”与“信号灯的注视频次”按照图2-2位置，
+																				将其归为与前向相关。
+																	</p>
+															<p>
+																		与左向相关的特征：1左侧的注视频次、2左侧
+																				道路区域的注视时长、3前方道路到左视镜的转移概率、4前方道路到左侧的转移概率
+																	</p>
+															<p>
+																		与前向相关的特征：5前方道路的注视频次、6
+																				其他区域的注视频次、7信号灯的注视频次
+																	</p>
+															<p>
+																		与右向相关的特征：8前方道路到右前方道路
+																				的转移概率、9右前方道路的注视频次、10右视镜的注视时长。
+																	</p>
+															<p>
+																		由图4-15可得，红灯情况下，左转驾驶意图下有两种视觉搜索模式。
+																				模式1（即为图中的曲线X）的特点为信号灯的
+																				注视频次和前方道路到左侧的转移概率较高，
+																				但由于前方道路的注视频次处于中等水平，再加上左侧的频次和时长较低，
+																				所以可认为驾驶员对左向关注度低，故分析得该模式对于信号灯关注较高，
+																				因此将其命名为模式X。
+																	</p>
+															<p>
+																		模式2（即为图中的曲线L）对于左侧道路的关注度非常突出，因此将其命名为模式L。
+																	</p>
+															<p>
+																			红灯左转时模式特征分布
+																	</p>
+															<p>
+																		由图4-16可分析得，红灯情况下，直行时有两种视觉搜索模式。
+																				模式1（即为图中的曲线X）与左转时的模式X非常类似，
+																				并且对于左侧和右侧的关注度更低，故同样可将其命名为模式X
+																	</p>
+															<p>
+																		模式2（即为图中的曲线XC）的信号灯注视频次较高，相比于模式1，
+																				其他特征的数值也相对较高，原因可能是模式1时，
+																				驾驶员对于信号灯的注视时间相对更长，因此更方面数值不如模式2高。
+																				而驾驶员处于模式2时，驾驶员更倾向于四处扫射，
+																				因此转移概率、注视频次等会更高，将其命名为模式XC。
+																	</p>
+															<p>
+																			红灯直行时模式特征分布
+																	</p>
+															<p>
+																		从图4-17可得，右转驾驶意图下有两种视觉搜索模式。
+																				模式1（即为图中的曲线LSX）对于前方道路、信号灯和左侧的关注度较高，
+																				对右侧的关注度较低，因此将其命名为模式LSX。
+																	</p>
+															<p>
+																		模式2（即为图中的曲线RX）下对信号灯及右侧关注度较高。
+																				虽然关于前向到左向的转移概率较高，但驾驶员在对前向的关注度较低，
+																				因此将该模式命名为RX。
+																	</p>
+															<p>
+																			红灯右转时模式特征分布
+																	</p>
+															<p>
+																		对比三种驾驶意图的视觉搜索模式之间的差别可分析得，相对于绿灯而言，
+																				红灯时驾驶员对信号灯区域的关注度均较高。
+																				左转时，模式L占样本总量61.5%，说明驾驶员在等红灯时较倾向于关注左侧道路。
+																				直行时，驾驶员对左右两侧的关注度降低，
+																				对信号灯区域的关注度在三种驾驶意图中最高。
+																				<span class="autotype">右转时，虽然大多数路口红灯可以右转，但数据表明，</span>
+																				驾驶员依然会对信号灯保持一定的关注度。
+																	</p>
+															<p>
+																		本章小结
+																	</p>
+															<p>
+																		在本章中，首先采用层次聚类算法，
+																				析取得到驾驶员在不同驾驶意图下的视觉搜索模式并绘制调和曲线将聚类结果可视化。
+																				然后利用模式的特征绘制折线图进一步分析，总结不同模式的表现出的规律特点。
+																				主要结论如下：
+																	</p>
+															<p>
+																		在绿灯情况下，左转时存在模式L、模式LS；
+																				直行时存在模式R、模式LS；
+																				右转时存在模式LS、模式R。
+																				每种驾驶意图下都存在侧重关注前方的模式，
+																				说明前方道路是驾驶员重点关注的区域。
+																				左转时，两种视觉搜索模式对左向的关注重点不同，一种侧重车辆左后方，
+																				一种侧重即车辆左前方。
+																	</p>
+															<p>
+																		在红灯情况下，左转时存在模式X、模式L；
+																				直行时存在模式X、模式XC；
+																				右转时存在模式LSX、模式RX。
+																				信号灯区域是驾驶员的重点关注区域，其中直行时，
+																				驾驶员对信号灯区域的关注度在三种驾驶意图中最高。
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		建模与预测
+																	</p>
+															<p>
+																		本章的主要内容为基于前面研究得到的驾驶员的视觉搜索模式，
+																				<span class="autotype">提出一种将聚类结果与有监督学习结合的新预方法，</span>
+																				其中采用的有监督学习算法有：支持向量机（
+																				<span class="autotype">LibSVM）和随机森林（Random Forest）。</span>
+																				<span class="autotype">并且配合网格搜索法和交叉验证，得到最佳模型参数。</span>
+																				最后将新预测方法与传统有监督学习方法对比分析。
+																	</p>
+															<p>
+																		具体的建模和预测过程均由Matlab编程完成，相关程序见附录。
+																	</p>
+															<p>
+																		<span class="autotype">有监督学习算法简介</span>
+																	</p>
+															<p>
+																		机器学习领域的算法成千上百，本次研究的分类问题所适应的算法也很多。
+																				针对这个问题，本次研究需要对算法进行优选。
+																				S.B.Kotsiantis    [6]详细分析了六种常见机器学习分类算法的优缺点，
+																				并对这些算法进行了分类准确率、分类速度、
+																				学习速度、过拟合风险处理能力等方面进行了对比。
+																	</p>
+															<p>
+																		针对其中五种分类算法（随机森林、神经网络
+																				<span class="autotype">、朴素贝叶斯、k近邻、支持向量机）部分的对比分析结果，</span>
+																				整理成表5-1。
+																	</p>
+															<p>
+																		<span class="autotype">	分类算法性能对比表</span>
+																	</p>
+															<p>
+																		<span class="autotype">机器学习分类算法	随机森林</span>
+																	</p>
+															<p>
+																		（RF）	神经网络
+																	</p>
+															<p>
+																		<span class="autotype">（NN）	朴素贝叶斯	k近邻</span>
+																	</p>
+															<p>
+																		（kNN）	支持向量机
+																	</p>
+															<p>
+																		（SVM）
+																	</p>
+															<p>
+																		分类准确率	****	***	*	**	****
+																	</p>
+															<p>
+																		分类速度	****	****	****	*	****
+																	</p>
+															<p>
+																		学习速度	***	*	****	****	*
+																	</p>
+															<p>
+																		过拟合风险处理能力	****	*	***	***	**
+																	</p>
+															<p>
+																		鲁棒性	****	***	**	*	****
+																	</p>
+															<p>
+																		从表中可以看出，在最主要的算法要求——分类准确率这一项上，
+																				随机森林和支持向量机具有很大的优势，其次为神经网络算法。
+																				对过拟合风险的处理能力，随机森林也占有很大优势，支持向量机略差。
+																				鲁棒性这一项上，随机森林和支持向量机也远远优于另外三种算法。
+																				分类速度和学习速度在本次研究中不是很重要的因素。
+																	</p>
+															<p>
+																		综合上述性能特征，
+																				本次研究选取支持向量机和随机森林作为下一步建模预测的分类算法。
+																	</p>
+															<p>
+																		<span class="autotype">支持向量机算法简介</span>
+																	</p>
+															<p>
+																		<span class="autotype">支持向量机（Support Vector Machine）是一种快速可靠的分类算法，</span>
+																				可以在数据量有限的情况下很好地完成任务。
+																				<span class="autotype">它是通过寻求结构化风险最小来提高学习机泛化能力，</span>
+																				<span class="autotype">实现经验风险和置信范围的最小化，从而达到在统计样本较小的情况下，</span>
+																				<span class="autotype">也能获得良好的统计规律的目的。</span>
+																				<span class="autotype">支持向量机最基本的模型定义为特征空间上的间隔最大化线性分类器，</span>
+																				<span class="autotype">即支持向量机的学习策略就是间隔最大化。</span>
+																	</p>
+															<p>
+																		若有两组不同种类的数据分布在一个二维平面上，可以用一条线将其分成两部分，
+																				这条线便定义为超平面，其两边代表了不同的数据，有不同的数据标签。
+																				如图5-1所示。
+																	</p>
+															<p>
+																		<span class="autotype">	超平面区分两类数据</span>
+																	</p>
+															<p>
+																		一般而言，对一个数据点进行分类，
+																				这个点距离超平面的远近可以表示为分类预测的确信或者准确程度。
+																				那么如果这个“间隔”越大，分类的确信度也就越大。
+																				所以，为了使得分类确信度尽量高，
+																				<span class="autotype">需要让所选的超平面能够最大化这个“间隔”值。</span>
+																				这个“间隔”值定义为图5-2中Gap的一半。
+																				虚线上点称为支持向量（Support Vector）。
+																	</p>
+															<p>
+																			分类确信度表示
+																	</p>
+															<p>
+																		以上是支持向量机在二维平面的应用，当扩展到更高阶次时，其原理也是一样的。
+																	</p>
+															<p>
+																		LibSVM是一种完善版本的支持向量机，可用于完成本多分类问题    [4]。
+																				本次在Matlab平台上采用LibSVM进行驾驶员意图预测。
+																	</p>
+															<p>
+																		核函数：任意两个样本点在扩维后的空间的内积，
+																				如果等于这两个样本点在原来空间经过一个函数后的输出，
+																				<span class="autotype">那么这个函数就叫核函数。</span>
+																	</p>
+															<p>
+																		<span class="autotype">对于非线性的情况，SVM 的处理方法是选择一个核函数 κ(⋅,⋅) ，</span>
+																				<span class="autotype">通过将数据映射到高维空间，来解决在原始空间中线性不可分的问题。</span>
+																				<span class="autotype">由于核函数的优良品质，这样的非线性扩展在计算量上并没有比原来复杂多少，</span>
+																				这一点是非常难得的。
+																				当然，这要归功于核方法——除了 SVM 之外，
+																				<span class="autotype">任何将计算表示为数据点的内积的方法，都可以使用核方法进行非线性扩展。</span>
+																	</p>
+															<p>
+																		核函数通过把数据映射到高维空间来增加第一节所述的线性学习器的能力，
+																				<span class="autotype">使得线性学习器对偶空间的表达方式让分类操作更具灵活性和可操作性。</span>
+																				因为训练样例一般是不会独立出现的，它们总是以成对样例的内积形式出现，
+																				<span class="autotype">而用对偶形式表示学习器的优势在为在该表示</span>
+																				中可调参数的个数不依赖输入属性的个数，
+																				<span class="autotype">通过使用恰当的核函数来替代内积，</span>
+																				<span class="autotype">可以隐式得将非线性的训练数据映射到高维空间，而不增加可调参数的个数(当然，</span>
+																				<span class="autotype">前提是核函数能够计算对应着两个输入特征向量的内积)。</span>
+																	</p>
+															<p>
+																		    1、简而言之：在线性不可分的情况下，
+																				<span class="autotype">支持向量机通过某种事先选择的非线性映射(</span>
+																				<span class="autotype">核函数)将输入变量映射到一个高维特征空间，</span>
+																				<span class="autotype">在这个空间中构造最优分类超平面。</span>
+																				<span class="autotype">我们使用SVM进行数据集分类工作的过程首先</span>
+																				<span class="autotype">是同预先选定的一些非线性映射将输入空间映</span>
+																				<span class="autotype">射到高维特征空间(下图很清晰的表达了通过映射到高维特征空间，</span>
+																				<span class="autotype">而把平面上本身不好分的非线性数据分了开来)：</span>
+																	</p>
+															<p>
+																		<span class="autotype">    使得在高维属性空间中有可能最训练数据实现超平面的分割，</span>
+																				避免了在原输入空间中进行非线性曲面分割计算。
+																				<span class="autotype">SVM数据集形成的分类函数具有这样的性质：</span>
+																				<span class="autotype">它是 一组以支持向量为参数的非线性函数的线性组合，</span>
+																				因此分类函数的表达式仅和支持向量的数量有关，而独立于空间的维度，
+																				在处理高维输入空间的分类时，这种方法 尤其有效，其工作原理如下图所示：
+																	</p>
+															<p>
+																		随机森林算法简介
+																	</p>
+															<p>
+																		<span class="autotype">随机森林（Random Forest）是指利用多棵树对样本进行训练并预测的一种分类器，</span>
+																				它同样可以用于用户回归，其输出的类别是由个别树输出的类别的种数而定的。
+																				简单来说，
+																				<span class="autotype">随机森林就是由多棵CART（Classification And Regression Tree）构成的。</span>
+																				对于每棵树，它们使用的训练集是从总的训练集中有放回采样出来的，
+																				这也就代表着总的训练集中的有些样本可能多次出现在一棵树中，
+																				也可能从未出现在一棵树的训练集中。
+																	</p>
+															<p>
+																		首先，从给定的训练集中通过多次随机的可重复的采样得到多个数据集。
+																				接着，对每个数据集构造一棵决策树，
+																				其构造过程为通过迭代将数据点分到下面左右两个子集中，该过程被称为分割过程。
+																				<span class="autotype">它实际上是将空间用超平面进行划分的一种方法，每次分割都将当前空间一分为二。</span>
+																				然后，在每个叶节点处通过统计训练集中来分析此叶节点上的数据分布。
+																				这样的一个迭代训练过程会一直执行到用户所
+																				设定的最大树深度（nTree）或者直到不能通图5-3过继续分割来获取更多信息。
+																				如图5-3所示。
+																	</p>
+															<p>
+																			随机森林图解
+																	</p>
+															<p>
+																		同时，在生成每棵树的时候，每个树选取的特征都仅仅是随机选出的少数特征，
+																				一般默认取特征总数m的开方。
+																				而一般的CART树则是会选取全部的特征进行建模。
+																				因此，不但特征是随机的，也保证了特征随机性。
+																				由于随机性，对于降低模型的方差很有作用，故随机森林一般不需要额外做剪枝，
+																				即可以取得较好的泛化能力和抗过拟合能力（Low Variance）。
+																				当然对于训练集的拟合程度就会差一些，也就是模型的偏倚会大一些（High Bias）
+																	</p>
+															<p>
+																		<span class="autotype">根据下列算法而建造每棵树 [1]  ：</span>
+																	</p>
+															<p>
+																		用N来表示训练用例（样本）的个数，M表示特征数目。
+																	</p>
+															<p>
+																		<span class="autotype">输入特征数目m，用于确定决策树上一个节点的决策结果；</span>
+																				其中m应远小于M。
+																	</p>
+															<p>
+																		从N个训练用例（样本）中以有放回抽样的方式，取样N次，
+																				形成一个训练集（即bootstrap取样），并用未抽到的用例（样本）作预测，
+																				评估其误差。
+																	</p>
+															<p>
+																		<span class="autotype">对于每一个节点，随机选择m个特征，</span>
+																				决策树上每个节点的决定都是基于这些特征确定的。
+																				根据这m个特征，计算其最佳的分裂方式。
+																	</p>
+															<p>
+																		每棵树都会完整成长而不会剪枝，
+																				这有可能在建完一棵正常树状分类器后会被采用）。
+																	</p>
+															<p>
+																		聚类与有监督学习结合方法
+																	</p>
+															<p>
+																		本小节提出一种将聚类结果与有监督学习结合的新预测方法，并详细介绍具体步骤，
+																				流程图见图5-4。
+																	</p>
+															<p>
+																			聚类与有监督学习结合流程图
+																	</p>
+															<p>
+																		该新方法是基于4 得到驾驶员视觉搜索模式后进行，
+																				首先将得到的六种视觉搜索模式（即聚类后得到的类）作为新标签，
+																				进行有监督学习模型训练，当输入一个新样本进行预测时，
+																				输出六种视觉搜索模式的发生概率。
+																	</p>
+															<p>
+																		视觉搜索模式可按其归属分为左转、直行、右转三种，将归属相同的模式概率相加，
+																				得到不同驾驶意图的发生概率。
+																				最后，输出概率最高的意图作为预测结果。
+																	</p>
+															<p>
+																		本论文中，新方法指代的是上述将聚类结果与有监督学习结合的方法，
+																				传统方法指代的是不经过聚类直接进行有监督学习的方法。
+																	</p>
+															<p>
+																		支持向量机预测
+																	</p>
+															<p>
+																		<span class="autotype">网格搜索法参数寻优</span>
+																	</p>
+															<p>
+																		支持向量机算法有两个重要参数分别为c和g，
+																				在建立模型时需要对这两个参数进行寻优    [5]。
+																	</p>
+															<p>
+																		<span class="autotype">参数c是惩罚系数，即对误差的宽容度。</span>
+																				c越高，说明越不能容忍出现误差，容易发生过拟合，
+																				<span class="autotype">即对训练集准确高但对测试集准确率低。</span>
+																				c越小，容易欠拟合，对测试集的准确率变低。
+																				<span class="autotype">c过大或过小，泛化能力均降低。</span>
+																	</p>
+															<p>
+																		<span class="autotype">参数g也称为gamma系数，是选择RBF函数作为核函数后，该函数自带的一个参数。</span>
+																				<span class="autotype">隐含地决定了数据映射到新的特征空间后的分布。</span>
+																				g越大，容易过拟合，g值越小，容易欠拟合。
+																	</p>
+															<p>
+																		网格搜索法是指定参数值的一种穷举搜索方法，通过尝试各种可能的c、g值，
+																				然后进行交叉验证，找出使交叉验证精确度最高的c和g。
+																				<span class="autotype"> 该方法有以下优点：</span>
+																	</p>
+															<p>
+																			全面搜索参数，可找到全局最优解；
+																	</p>
+															<p>
+																		<span class="autotype">	实现简单，用多重循环结构即可实现；</span>
+																	</p>
+															<p>
+																			若参数比较少，与高级算法相比，时间复杂度不会高太多；
+																	</p>
+															<p>
+																			可并行性高，因为c、g组合对是相互独立的。
+																	</p>
+															<p>
+																		通过网格搜索法，可得到不同c，g下的准确率，为了方便将结果可视化展示，
+																				绘制等高线图，横轴表示参数c，纵轴表示参数g，等高线上的数值表示准确率。
+																	</p>
+															<p>
+																		交叉验证简介
+																	</p>
+															<p>
+																		<span class="autotype">交叉验证（Cross-validation）是一种统计学上将数据样本切割成较小子集的方法，</span>
+																				<span class="autotype">将数据集分成n份，轮流将其中n-1份作为训练数据，1份作为测试数据，</span>
+																				常见划分份数为十，也称为十折交叉验证，如图5-5为十折交叉验证的过程。
+																	</p>
+															<p>
+																		<span class="autotype">	十折交叉验证图解</span>
+																	</p>
+															<p>
+																		Ei为每轮测试准确率，可得到十轮测试准确率，再取平均值。
+																				<span class="autotype">一般还需要进行多次交叉验证，再求其均值，作为对算法准确性的估计。</span>
+																				<span class="autotype">交叉验证可有效防止过拟合，便于选出泛化能力强的模型。</span>
+																	</p>
+															<p>
+																		本研究中采用十折交叉验证和五折交叉验证，并实验十次取平均值。
+																				先设置c和g的搜索范围为0至10，每次步长为0.5，
+																				再根据实际等高线图缩小搜索范围，每次步长为0.05，找到最佳参数。
+																	</p>
+															<p>
+																		新方法预测结果
+																	</p>
+															<p>
+																		如图5-6所示，分别为绿灯情况下，十折交叉验证和五折交叉验证时，
+																				新方法的准确率。
+																	</p>
+															<p>
+																		十折交叉验证时，图中显示准确率最高为67%，此时对应的参数g范围是1至2，
+																				惩罚系数c范围是6至9。
+																				在此范围内继续缩小，最终可得当g=1.4，c=7.55时，准确率最高为67.6%。
+																	</p>
+															<p>
+																		五折交叉验证时，图中显示准确率最高为66%，此时对应的参数g范围是0.5至2，
+																				惩罚系数c从7至10，因为当c=10时，仍呈现准确率上升趋势，故在进一步搜索时，
+																				惩罚系数c范围可设置为7至13。
+																				最终可得当g=0.75，c=12.8时，准确率为66.4%。
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																			绿灯时新方法的准确率
+																	</p>
+															<p>
+																		如图5-7所示，分别为红灯情况下，十折交叉验证和五折交叉验证时，
+																				新方法的准确率。
+																	</p>
+															<p>
+																		十折交叉验证时，图中显示准确率最高为70%，此时对应的参数g范围是0.5至1.5，
+																				惩罚系数c从5至10，因为当c=10时，仍呈现准确率上升趋势，
+																				故惩罚系数c搜索范围设置为4.8至15.2。
+																				最终可得当g=0.9，c=10.3时，准确率为71.9%。
+																	</p>
+															<p>
+																		五折交叉验证时，图中显示准确率最高为66%，此时对应的参数g范围是0.5至1.5，
+																				<span class="autotype">惩罚系数c范围是7.5至9.5。</span>
+																				在此范围内继续缩小，最终可得当g=1.05，c=8.55时，准确率为66.7%。
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																		<span class="autotype">	红灯时新方法的准确率</span>
+																	</p>
+															<p>
+																		传统方法预测结果
+																	</p>
+															<p>
+																		如图5-8所示，分别为绿灯情况下，十折交叉验证和五折交叉验证时，
+																				采用传统支持向量机算法的准确率。
+																	</p>
+															<p>
+																		十折交叉验证时，图中显示准确率最高为66%，此时对应的参数g范围是1.5至2，
+																				惩罚系数c范围是5.5至8.5。
+																				在此范围内继续缩小，最终可得当g=1.85，c=7.05时，准确率为66.5%。
+																	</p>
+															<p>
+																		五折交叉验证时，图中显示准确率最高为65%，此时对应的参数g范围是1.5至2.5，
+																				惩罚系数c从5.5至10，因为当c=10时，仍呈现准确率上升趋势，
+																				故惩罚系数c搜索范围设置为5.5至14.5。
+																				最终可得当g=1.55，c=13.8时，准确率为65.8%。
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																			绿灯时传统方法的准确率
+																	</p>
+															<p>
+																		如图5-9所示，分别为红灯情况下，十折交叉验证和五折交叉验证时，
+																				新方法的准确率。
+																	</p>
+															<p>
+																		十折交叉验证时，图中显示准确率最高为62%，此时对应的参数g范围是0.5至1.5，
+																				惩罚系数c从5至10，因为当c=10时，仍呈现准确率上升趋势，
+																				故惩罚系数c搜索范围设置为5至15。
+																				最终可得当g=1.35，c=9.85时，准确率为62.9%。
+																	</p>
+															<p>
+																		五折交叉验证时，图中显示准确率最高为61%，此时对应的参数g范围是1至2，
+																				惩罚系数c范围是5至8.5和9至10，因为当c=10时，仍呈现准确率上升趋势，
+																				故惩罚系数c搜索范围设置为两段，分别为5至8.5和9至11。
+																				在此范围内继续缩小，最终可得当g=1.45，c=7时，准确率为61.6%
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																			红灯时传统方法的准确率
+																	</p>
+															<p>
+																		新旧方法效能比对
+																	</p>
+															<p>
+																		为了对比新方法与传统方法的优劣，将新方法的准确率减去传统方法的准确率，
+																				得到相同参数下，两种方法的准确率差值。
+																	</p>
+															<p>
+																		如图5-10所示，图（a）为十折交叉验证时两种方法的差值。
+																				新方法的准确普遍高于传统方法。
+																				在惩罚系数c和参数g较低时，新方法对准确率的提升最为明显，
+																				比传统方法的准确率最多高出6%，但随着c和g的增加，这种优势在逐渐减少。
+																				图（b）为五折交叉验证时的结果，表现出的规律与十折交叉验证情况时类似，
+																				其中新方法准确率最多高出5%。
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																			绿灯时新方法与传统方法的准确率差值
+																	</p>
+															<p>
+																		图5-11展示的是红灯情况下，新方法与传统方法的准确率差值。
+																				红灯呈现出与绿灯类似的规律，随着参数的增大，新方法的优势逐渐减少。
+																				但是与绿灯不同的是，红灯下新方法对准确率的提升更为明显，
+																				十折交叉验证时最多可提高9%，五折交叉验证时，最多可提高7%。
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																			红灯时新方法与传统方法的准确率差值
+																	</p>
+															<p>
+																		对上述结果简单整理后如表5-2所示。
+																	</p>
+															<p>
+																			支持向量机下不同预测方法的准确率
+																	</p>
+															<p>
+																		信号灯状态	新方法准确率	传统方法准确率
+																	</p>
+															<p>
+																			十折交叉验证	五折交叉验证	十折交叉验证	五折交叉验证
+																	</p>
+															<p>
+																		绿灯	67.6%	66.4%	66.5%	65.8%
+																	</p>
+															<p>
+																		红灯	71.9%	66.7%	62.9%	61.6%
+																	</p>
+															<p>
+																		随机森林预测
+																	</p>
+															<p>
+																		随机森林的参数为决策树数量，若决策树数量过小，则准确率不高。
+																				随着决策树数量的增加，准确率的增长率呈现先增大后减少的趋势，
+																				决策树数量过多不仅而且模型训练速度会变慢，故可做折线图，
+																				由折线图观察准确率的变化趋势，选取准确率较高且决策树数量较少点。
+																	</p>
+															<p>
+																		本研究中，决策树数量变化范围为5至200，每次步长为5。
+																				为了防止过拟合，同样采用十折交叉验证和五折交叉验证的方法。
+																	</p>
+															<p>
+																		绿灯
+																	</p>
+															<p>
+																		图5-12表示绿灯情况下，新方法与传统方法在使用随机森林时，
+																				准确率随着树数量发生的变化。
+																	</p>
+															<p>
+																		对比新旧方法，十折交叉验证时，当决策树数量小于25时，
+																				新方法与传统方法准确率相近，当决策树数量超过25后，新方法的优势较明显，
+																				<span class="autotype">准确率比传统方法高。</span>
+																				五折交叉验证时，绝大部分情况下，新方法准确率比传统方法高。
+																				上述情况说明，新方法能够起到提高一定准确率的作用。
+																	</p>
+															<p>
+																		对比不同的交叉验证，当采用新方法时，
+																				十折交叉验证的准确率比五折交叉验证时高，而采用传统方法时，
+																				<span class="autotype">依然十折交叉验证的准确率较高。</span>
+																				因此在绿灯情况下，采用新方法和十折交叉验证可获得较好的分类准确率，
+																				此时最佳决策树的数量为90棵，准确率为71.6%。
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																			绿灯时新方法的准确率
+																	</p>
+															<p>
+																		红灯
+																	</p>
+															<p>
+																		图5-13表示红灯情况下，新方法与传统方法在使用随机森林时，
+																				准确率随着树数量发生的变化。
+																	</p>
+															<p>
+																		对比新旧方法，十折交叉验证时，新方法准确率始终比传统方法高，
+																				五折交叉验证时也表现出同样的规律。
+																	</p>
+															<p>
+																		对比不同的交叉验证，结果与绿灯情况下类似，无论是哪种方法，
+																				十折交叉验证的准确率均比五折交叉验证的高，说明红灯情况下，
+																				采用新方法和十折交叉验证可获得较好的分类准确率，
+																				此时最佳决策树的数量为80棵，准确率为70.8%。
+																	</p>
+															<p>
+																		（a）十折交叉验证    	        		    （b）五折交叉验证
+																	</p>
+															<p>
+																		<span class="autotype">	红灯时新方法的准确率</span>
+																	</p>
+															<p>
+																		对比不同的信号灯状态，对于新方法而言，十折交叉验证时，
+																				绿灯的准确率趋于平稳时与红灯相近，均在71%附近浮动，
+																				五折交叉验证时绿灯与红灯的准确率也相差不大，均在69%附近浮动。
+																				说明即时信号灯状态不同，新方法的预测准确率依然相近。
+																	</p>
+															<p>
+																		对上述结果简单整理后如表5-3所示。
+																	</p>
+															<p>
+																			随机森林下不同预测方法的准确率
+																	</p>
+															<p>
+																		信号灯状态	新方法准确率	传统方法准确率
+																	</p>
+															<p>
+																			十折交叉验证	五折交叉验证	十折交叉验证	五折交叉验证
+																	</p>
+															<p>
+																		绿灯	71.6%	67.5%	66.5%	65.8%
+																	</p>
+															<p>
+																		红灯	70.8%	66.7%	62.9%	61.6%
+																	</p>
+															<p>
+																		 
+																	</p>
+															<p>
+																		总结与展望
+																	</p>
+															<p>
+																		总结
+																	</p>
+															<p>
+																		<span class="autotype">本研究以十字路口的数据库为基础，</span>
+																				完成了基于注视特性的驾驶员驾驶意图预测方法的研究。
+																				研究分析了驾驶员在十字路口的注视特性，并选取了其中三种作为研究的注视特性，
+																				分别是注视频次、注视时长、转移概率。
+																				在得到的注视特性数据的基础上，
+																				基于FEAST算法筛选出一系列具有代表性的特征作为驾驶意图预测建模的主要特征。
+																				为了此次研究的准确性，还对分类器的算法进行了优选。
+																	</p>
+															<p>
+																		在众多算法中，进过对比分析，
+																				选出了两种较好的算法——支持向量机和随机森林作为此次研究分类器设计的算法。
+																				完成了所有准备工作后，研究得到了驾驶员驾驶意图预测的模型，
+																				并对样本数据进行了再预测，预测结果也在第五章中列出。
+																	</p>
+															<p>
+																		本章在总结了前述众多分析和结果以后，得出以下结论：
+																	</p>
+															<p>
+																		1、在绿灯情况下，左转时存在模式L、模式LS；
+																				直行时存在模式R、模式LS；
+																				右转时存在模式LS、模式R。
+																				每种驾驶意图下都存在侧重关注前方的模式，
+																				说明前方道路是驾驶员重点关注的区域。
+																				左转时，两种视觉搜索模式对左向的关注重点不同，
+																				模式L侧重关注左视镜即车辆后方，模式LS侧重关注左侧区域即车辆前方；
+																				直行时存在一种模式对左侧道路的关注度非常低，；
+																				右转时两种视觉搜索模式对左侧道路的关注度均较低；
+																	</p>
+															<p>
+																		2、在红灯情况下，左转时存在模式X、模式L；
+																				直行时存在模式X、模式XC；
+																				右转时存在模式LSX、模式RX对比三种驾驶意图的视觉搜索模式之间的差别可分析得，
+																				相对于绿灯而言，红灯时驾驶员对信号灯区域的关注度均较高。
+																				左转时，模式L占样本总量61.5%，说明驾驶员在等红灯时较倾向于关注左侧道路。
+																				直行时，驾驶员对左右两侧的关注度降低，
+																				对信号灯区域的关注度在三种驾驶意图中最高。
+																				<span class="autotype">右转时，虽然大多数路口红灯可以右转，但数据表明，</span>
+																				驾驶员依然会对信号灯保持一定的关注度；
+																	</p>
+															<p>
+																		3、采用SVM算法时，绿灯情况下，十折交叉验证时新方法的准确普遍高于传统方法。
+																				在惩罚系数c和参数g较低时，新方法对准确率的提升最为明显，
+																				比传统方法的准确率最多高出6%，但随着c和g的增加，这种优势在逐渐减少。
+																				五折交叉验证时，表现出的规律与十折交叉验证情况时类似，
+																				其中新方法准确率最多高出5%。
+																				红情况下表现出的规律与绿灯类似，随着参数的增大，新方法的优势逐渐减少。
+																				但是与绿灯不同的是，红灯下新方法对准确率的提升更为明显，
+																				十折交叉验证时最多可提高9%，五折交叉验证时，最多可提高7%
+																	</p>
+															<p>
+																		4、采用随机森林算法时，在绿灯情况下，
+																				采用新方法和十折交叉验证可获得较好的分类准确率，
+																				此时最佳决策树的数量为90棵，准确率为71.6%。
+																				红灯情况下，采用新方法和十折交叉验证可获得较好的分类准确率，
+																				此时最佳决策树的数量为80棵，准确率为70.8%。
+																	</p>
+															<p>
+																		展望
+																	</p>
+															<p>
+																		1、样本量扩大。
+																	</p>
+															<p>
+																		<span class="autotype">2、特征选择算法改进。</span>
+																	</p>
+															<p>
+																		3、不同模式的样本数量不平衡。
+																	</p>
+															<p>
+																		3、本文算法的准确性还有待提高。
+																	</p>
+															<p>
+																		6、
+																	</p>
+											</div>
+			</div>
+		</div>
+		<!--nano-->
+	</div>
+</div>
+<div class="footer">
+	<p>
+		论文检测报告由checkpass论文检测系统自动生成
+Copyright © ~ 2016 checkpass论文检测系统 All Rights Reserved
+www.checkpass.net
+	</p>
+	<p>报告请使用谷歌或IE9以及以上高版本浏览器查阅</p>
+</div>
+</body>
+</html>
