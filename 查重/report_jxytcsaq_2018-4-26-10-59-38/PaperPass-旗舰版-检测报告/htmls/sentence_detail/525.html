@@ -1,0 +1,489 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>详细报告语句详情</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <style type="text/css">
+        .content-tips .paper-section{margin-bottom:0;min-width:450px;}
+    </style>
+</head>
+<body>
+<span id="gototop"></span>
+<div>
+    <div class="paper-txt P30">
+        <div class="paper-section" style="margin-bottom:0;">
+            <div class="font-bold MT5">
+                该句相似度：<span class="g-font-color orange similarNum">56%</span>
+            </div>
+            <div class="MT30">
+                <p class="font-bold">您的语句：</p>
+                <span>c越小，容易欠拟合，对测试集的准确率变低。</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="tab-A">
+            <ul class="tab-A-ul clearfix" tab-a="ul">
+                <li class="active" data-id="学术期刊,学位论文,学术会议,书籍数据,互联网,自建库,all">
+                    <span class="tab-text">综合</span>
+                    <span class="tab-superscript">7</span>
+                </li>
+                <li data-id="tab,学术期刊,学位论文,学术会议,书籍数据,自建库,local">
+                    <span class="tab-text">本地库</span>
+                    <span class="tab-superscript">6</span>
+                </li>
+                <li data-id="互联网,5">
+                    <span class="tab-text">互联网</span>
+                    <span class="tab-superscript">1</span>
+                </li>
+            </ul>
+        </div>
+        <div class="none" tab="section" data-id="tab">
+            <div class="tab-B clearfix">
+                <div class="paper-section P30 PB0 clearfix">
+                    <span class="tab-B-span pull-left">本地库</span>
+                    <ul class="tab-B-ul pull-left clearfix" tab-b="ul">
+                        <li class="active" data-id="tab,学术期刊,学位论文,学术会议,书籍数据,自建库,local">
+                            <span class="tab-text">全部</span>
+                            <span class="tab-superscript">6</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学术期刊,1">
+                            <span class="tab-text">期刊</span>
+                            <span class="tab-superscript">1</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学位论文,2">
+                            <span class="tab-text">学位</span>
+                            <span class="tab-superscript">3</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学术会议,3">
+                            <span class="tab-text">会议</span>
+                            <span class="tab-superscript">1</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,书籍数据,4">
+                            <span class="tab-text">图书</span>
+                            <span class="tab-superscript">1</span>
+                                                    </li>
+                                            </ul>
+                </div>
+                <div class="g-line-row MT30 tab-pane-line"></div>
+            </div>
+        </div>
+        <div class="content-tips">
+            <div class="tab-content none" tab="section" data-id="1">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在期刊库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content none" tab="section" data-id="2">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在学位库共找出相似内容：<span>3</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="3">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在会议库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="4">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在图书库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="5">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在互联网库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <!-- 自建库 -->
+            <div class="tab-content none" tab="section" data-id="6">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在自建库中没有找到与此句话相似的内容                    <p>
+                    <div class="pull-right">
+                                            </div>
+                </div>
+            </div>
+                        <div class="tab-content" tab="section" data-id="all">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在本地库和互联网库共找出相似内容：<span>7</span>个
+                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="local">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在本地库共找出相似内容：<span>6</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+                <div class="tab-content" tab="section" data-id="互联网">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">1</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">56%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">c<span class="g-underline-text">越</span><span class="g-underline-text">小</span>，<span class="g-underline-text">容易</span><span class="g-underline-text">欠</span><span class="g-underline-text">拟合</span>，对测试集的准确率变低。</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">。C<span class="g-underline-text">越</span><span class="g-underline-text">小</span>，<span class="g-underline-text">容易</span><span class="g-underline-text">欠</span><span class="g-underline-text">拟合</span>。C过大或过<span class="g-underline-text">小</span>，泛化能力</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            重要的参数C与gamma。其中C是惩罚系数，即对误差的宽容度。c越高，说明越不能容忍出现误差，容易过拟合<span class="g-font-color green">。C越小，容易欠拟合。C过大或过小，泛化能力</span>变差gamma是选择RBF函数作为kernel后，该函数自带的一个参数。                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（互联网）：</p>
+                            <div class="local-source-detail">
+                                <b>标题：</b>SVM的两个参数 C 和 gamma - tantao258 - 博客园<br/><a href='https://www.cnblogs.com/tantao258/p/7663390.html' target='_blank'>https://www.cnblogs.com/tantao258/p/7663390.html</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">2</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">46%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">c越小，容易欠拟合，<span class="g-underline-text">对</span><span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>变低。</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">的</span>分类<span class="g-underline-text">准确</span><span class="g-underline-text">率</span>，仅考虑<span class="g-underline-text">对</span><span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span>分类<span class="g-underline-text">准确</span><span class="g-underline-text">率</span>最高<span class="g-underline-text">的</span>3</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            影响。选择网络时，需要综合考虑训练集、测试集、网络结构的因素，这里，选择网络时采用如下标准：优先考虑测试集<span class="g-font-color green">的分类准确率，仅考虑对测试集的分类准确率最高的3</span>个网络结构。比较对测试集的分类准确率最高的3个网络结构                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《水稻植株穗部性状在体测量研究》<br><b>作者：</b>段凌凤<br><b>分类号：</b>S126<br><b>学科专业：</b>生物医学工程<br><b>授予学位：</b>博士<br><b>导师姓名：</b>刘谦<br><b>学位授予单位：</b>华中科技大学<br><b>学位年度：</b>2013<br><b>关键词：</b>水稻植株 穗部性状 在体测量 机器视觉 图像处理 模式识别
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="书籍数据">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">3</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">43%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">c越小，容易欠拟合，对<span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>变低。</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">极限为75%<span class="g-underline-text">的</span>情况下，<span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>为29%。</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            我们将这个测试简称为“去除一个”。由去除一个测试度量出的准确率是很低的。Deroski得出在训练集准确率<span class="g-font-color green">极限为75%的情况下，测试集的准确率为29%。</span>FOIL（VanLaer等人，1994）对ILP范例的属性值学习算法进行了一些                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（书籍数据）：</p>
+                            <div class="local-source-detail">
+                                <b>章节：</b>《第 5 章    机器学习在有限元计算中的应用》<br><b>书名：</b>《机器学习与数据挖掘》<br><b>作者：</b>美米哈尔斯基  ... 等<br><b>出版社：</b>电子工业出版社<br><b>出版时间：</b>2004-1-1<br><b>ISBN：</b>7-5053-9224-7
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">4</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">43%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">c越小，容易欠拟合，对<span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>变低。</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">集</span>分类<span class="g-underline-text">准确</span><span class="g-underline-text">率</span>提高，但是<span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span>分类<span class="g-underline-text">准确</span><span class="g-underline-text">率</span>反而降低了。</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            隐节点数少时网络训练时间多，而且训练集和测试集的分类准确率也不高；而隐节点数多时虽然训练时间减少、训练<span class="g-font-color green">集分类准确率提高，但是测试集的分类准确率反而降低了。</span>因此，隐节点数为12或13时，网络的综合性能较好。                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于交叉熵的神经网络在病理图像分析中的应用》<br><b>作者：</b>全宇 王忠庆 何苗<br><b>作者单位：</b>中国医科大学,附属盛京医院计算机中心,沈阳,110004；中国医科大学,附属第一医院信息中心,沈阳,110001<br><b>参考文献：</b>7篇<br><b>页码：</b>P446—P448<br><b>页数：</b>3页<br><b>分类号：</b>R36<br><b>机标分类号：</b>TP3 R44<br><b>基金项目：</b>辽宁省科技计划项目(2007225002-2);辽宁省教育厅高校科学研究计划项目(20060928)<br><b>期刊名称：</b>《中国医科大学学报》<br><b>出版时间：</b>2009年6期<br><b>期刊级别：</b>ISTIC - PKU<br><b>ISSN：</b>0258-4646<br><b>关键词：</b>交叉熵 神经网络 病理图像<br><b>摘要：</b>目的 探讨利用基于交叉熵的神经网络识别典型病理图像.方法 提取27个宫颈细胞及细胞核的形态学与色度学特征参数并进行标准化处理,运用(SNN)软件对700例宫颈细胞图片进行神经网络分析.结果 细胞按正常、低度和高度鳞状上皮细胞、癌细胞进行分类识别,训练集与测试集识别率分别为98.29%、96.57%.使用相同训练样本数量,识别率高于其他网络模型.结论 该方法可以很好对宫颈细胞进行分类识别,并可应用于其他病理图片定量分析研究.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">5</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">c越小，容易欠拟合，对<span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>变低。</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>。同时也能提高<span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span>分类<span class="g-underline-text">准确</span><span class="g-underline-text">率</span>，提升SVM</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            收敛性。得到归一化的特征值后，需要利用交叉验证的方式选择最优参数c和g，g为核函数参数，从而提高预测训练集<span class="g-font-color green">的准确率。同时也能提高测试集的分类准确率，提升SVM</span>分类器的推广能力和学习能力，避免过学习和欠学习的发生。                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于红外图像的森林火灾识别技术研究》<br><b>作者：</b>贾艳成<br><b>学科专业：</b>控制工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>张昌华<br><b>学位授予单位：</b>电子科技大学<br><b>学位年度：</b>2015
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">6</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">c<span class="g-underline-text">越</span>小，容易欠拟合，对<span class="g-underline-text">测试</span><span class="g-underline-text">集</span><span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>变低。</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">模型在训练<span class="g-underline-text">集</span>上<span class="g-underline-text">的</span><span class="g-underline-text">准确</span><span class="g-underline-text">率</span>和<span class="g-underline-text">测试</span><span class="g-underline-text">集</span>上<span class="g-underline-text">准确</span><span class="g-underline-text">率</span>差异<span class="g-underline-text">越</span>来</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            第5章实验分析发现，在所有数据集上DATT和ESN多样性具有负相关性。随着ESN多样性的增大，DATT越来越小，即<span class="g-font-color green">模型在训练集上的准确率和测试集上准确率差异越来</span>越小。这说明了提高ESN多样性有助于减少模型在测试集与                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于多目标多样性回声状态网络的时间序列分析》<br><b>作者：</b>刘正夫<br><b>学科专业：</b>计算机系统结构<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>陈欢欢<br><b>学位授予单位：</b>中国科学技术大学<br><b>学位年度：</b>2017
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术会议">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">7</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">c<span class="g-underline-text">越</span>小，容易欠<span class="g-underline-text">拟合</span>，对测试集的<span class="g-underline-text">准确</span><span class="g-underline-text">率</span>变<span class="g-underline-text">低</span>。</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">看，分级<span class="g-underline-text">越</span>多，其样本<span class="g-underline-text">拟合</span><span class="g-underline-text">率</span>和预报<span class="g-underline-text">准确</span><span class="g-underline-text">率</span><span class="g-underline-text">越</span><span class="g-underline-text">低</span>。</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            能力。从季节看，冬半年的预报效果比夏半年的好，这主要是因为夏半年的云量变化较复杂。从分类的效果<span class="g-font-color green">看，分级越多，其样本拟合率和预报准确率越低。</span>对于2级（≥8）分类预报，有较高的拟合率和预报                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术会议）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《支持向量机在多台站云量业务化预报中的应用》<br><b>作者：</b>安洁 王洪芳 齐琳琳 吴宁宁<br><b>作者单位：</b>空军装备研究院航空气象防化研究所,北京,100085；沈空气象中心,沈阳,110000<br><b>会议名称：</b>第27届中国气象学会年会<br><b>主办单位：</b>中国气象学会<br><b>会议时间：</b>2010-10-01<br><b>会议地点：</b>北京<br><b>关键词：</b>支持向量机 天空云量 分级预报 参数优化
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+            
+        <!--语句修改建议-->
+        <span id="modify_suggest"></span>
+        <div id="advice">
+            <div class="g-line-row"></div>
+            <div class="paper-txt P30 PB0">
+                <div class="paper-section">
+                    <p class="g-font-s16 font-bold g-font-color green MB10">该句修改建议（轻度相似，请酌情修改）</p>
+                    <span class="g-font-color green">c<span class="g-font-color red">越</span><span class="g-font-color red">小</span>，<span class="g-font-color red">容易</span><span class="g-font-color red">欠</span><span class="g-font-color red">拟合</span>，对测试集的准确率变低。</span>
+                    <div class="MT10">
+                        <p class="font-bold">同义词：</p>
+                        <ul class="local-source-detail">
+                            <li class="g-font-color green"><span class="g-font-color red">容易：</span>易于  便于</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-to-top text-center">
+        <a href="#gototop" class="font-bold g-font-color green">回到顶部</a>
+    </div>
+    <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_black">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2018 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    (function(System,$){
+        var tab = System.Paper.tab();
+        var $advice = null;
+        function run(){
+            var i = 0;
+            $advice.show();
+            tab.call(this,{callback:function(){
+                var $num = $(this).find('.chapter-num');
+                if($num.length>0){
+                    i++;
+                    $num.text(i);
+                }
+            }});
+            //没有内容时同时不显示该句修改建议
+            if(0 === i){$advice.hide();}
+        }
+        $(function(){
+            $advice = $('#advice');
+            $(document).on('click','[tab-a="ul"] li',function(){
+                run.call(this);
+            });
+            $(document).on('click','[tab-b="ul"] li',function(){
+                run.call(this);
+            });
+        });
+    })(Report,jQuery);
+
+
+</script>
+</html>
